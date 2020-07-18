@@ -1,6 +1,6 @@
 import React from 'react';
 import 'antd/dist/antd.css';
-import './../index.css';
+import './StorePage.css';
 import { Layout, Card, Button, Progress, Popover } from 'antd';
 import { QuestionCircleOutlined } from '@ant-design/icons';
 
