@@ -48,7 +48,7 @@ export default function StorePage () {
             </div>
         </div>
         {/* </Content> */}
-        <Footer style={{ textAlign: 'center' }}>Yellowblocks ©2020</Footer>
+        <Footer style={{ textAlign: 'center', backgroundColor:'#FFFFFF' }}>Yellowblocks ©2020</Footer>
     </>
     // </Layout>
     );
