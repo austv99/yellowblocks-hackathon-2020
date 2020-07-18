@@ -10,7 +10,7 @@ const { Header, Content, Footer } = Layout;
 export default function StorePage () {
     
     return(
-    <Layout className="layout">
+    <Layout className="layout" style={{ backgroundColor:"#FFFFFF" }} >
         <HeaderBar />
         <Content style={{ padding: '20px 50px' }}>
         <h1>ASOS Cashback</h1>
@@ -47,7 +47,7 @@ export default function StorePage () {
             </div>
         </div>
         </Content>
-        <Footer style={{ textAlign: 'center' }}>Yellowblocks ©2020</Footer>
+        <Footer style={{ textAlign: 'center', backgroundColor:"#F4F5F4" }}>Yellowblocks ©2020</Footer>
     </Layout>
     );
 }
