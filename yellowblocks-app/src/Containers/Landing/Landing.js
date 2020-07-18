@@ -15,6 +15,7 @@ import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 import MSFCarousel from '../../assets/msfcarousel.jpg';
 import Amazon from '../../assets/amazon.svg';
+import { Link } from 'react-router-dom';
 
 const { Search } = Input;
 
@@ -25,7 +26,9 @@ export default function Landing () {
         <div style={{paddingBottom: '5rem'}}>
         <div className='body'>
         <h1>Charity Spotlight of the Week</h1>
+        <Link to="/redcross">
         <img src={RedCross} style={{width: '1000px'}}/>
+        </Link>
         </div>
         <div className="partnered">
         <h1>Partnered Businesses</h1>

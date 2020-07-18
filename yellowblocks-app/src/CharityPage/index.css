@@ -1,0 +1,26 @@
+.borderbox{
+    margin-top: 10px;
+}
+
+.topRow{
+    padding-top: 20px;
+}
+
+.picture{
+    width: 400px;
+    height: 200px;
+}
+
+.indentbox{
+    margin-left: 30px;
+}
+
+
+.newsContainer{
+    text-align: center;
+    width: 80%;
+}
+
+.cardPadding{
+    margin-bottom: 30px;
+}

@@ -4,6 +4,7 @@ import { Row, Col, Input, Button, Avatar} from 'antd';
 import { UserOutlined } from '@ant-design/icons';
 import './index.css';
 import logo from '../assets/charifund.png';
+import { Link } from 'react-router-dom';
 
 const { Search } = Input;
 
@@ -12,7 +13,9 @@ export const HeaderBar = () => {
         <>
             <Row gutter={16} align="middle">
                 <Col span={3} className="gutter-box" offset={1}>
+                    <Link to="/">
                     <img src={logo} className="logo" alt="logo"/>
+                    </Link>
                 </Col>
 
                 <Col span={11} className="gutter-box">
