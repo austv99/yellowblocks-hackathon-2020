@@ -34,14 +34,18 @@ export default function Landing () {
         <h1>Partnered Businesses</h1>
         </div>
         <div className="business">
+        <Link to="/asos">
         <Card style={{ height: 500, width: 250, margin: '6px' }}>
             <div style={{height:'200px', width:'200px'}}>
+            
             <img src={Asos} style={{height: '150px', width: '150px'}}/>
+            
             </div>
             <h1 style={{fontWeight:'700'}}>Asos</h1>
             <h2>Cashback Rate 6%</h2>
             <h3>3% for you, 3% for charity</h3>
         </Card>
+        </Link>
         <Card style={{ height: 500, width: 250, margin: '6px' }}>
             <div style={{height:'200px', width:'200px'}}>
             <img src={Nike} style={{height: '150px', width: '150px'}}/>

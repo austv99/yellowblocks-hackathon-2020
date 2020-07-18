@@ -6,6 +6,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import StorePage from './Containers/StorePage/StorePage.js'
 import './App.css';
 import 'antd/dist/antd.css';
 import {CharityPage} from './CharityPage'
@@ -15,6 +16,7 @@ const App = () => (
     <Router>
     <Route exact path="/" component={Landing}/>
     <Route path="/redcross" component={CharityPage} />
+    <Route path="/asos" component={StorePage} />
     </Router>
     
   </div>
