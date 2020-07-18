@@ -35,7 +35,7 @@ export default function StorePage () {
                 <div class='flex-container half-container'>
                     <p style={{fontSize:"12px", fontStyle:"bold", marginRight:"10px"}}><strong>Charity split:</strong></p>
                     <Progress class='third-container' style={{marginRight:"10px"}} percent={50} size="small" status="active" />
-                    <Popover content={<p>The percentage of cashback you will receive from a transaction that will be donated to charity.</p>} >
+                    <Popover content={<p>Charity split is the percentage of cashback received from a transaction that will be donated to charity.</p>} >
                         <QuestionCircleOutlined style={{marginRight:"10px"}}/>
                     </Popover>
                     <Button type="secondary">CHANGE</Button>
