@@ -118,7 +118,7 @@ export default function Profile () {
     return (
       <>
       <HeaderBar />
-    
+      <div style={{paddingLeft: '5rem'}}>
       <Row gutter={50}>
         <Col style={{width: '55%'}}>
           <Statistic align="left" title="You've donated a total of" value={389.97} prefix={<DollarCircleOutlined />} />
@@ -130,7 +130,7 @@ export default function Profile () {
           </div>
         </Col>
       </Row>
-
+      
       <Row gutter={50}>
         <Col style={{width: '55%'}}>
           <br/>
@@ -168,6 +168,7 @@ export default function Profile () {
           </div>
         </Col>
       </Row>
+      </div>
       </>  
     );
   }
