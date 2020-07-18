@@ -12,7 +12,7 @@ export const HeaderBar = () => {
         <>
             <Row gutter={16} align="middle">
                 <Col span={3} className="gutter-box" offset={1}>
-                    <img src={logo} className="logo"/>
+                    <img src={logo} className="logo" alt="logo"/>
                 </Col>
 
                 <Col span={11} className="gutter-box">
