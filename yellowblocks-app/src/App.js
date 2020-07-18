@@ -10,7 +10,8 @@ import StorePage from './Containers/StorePage/StorePage.js'
 import Profile from './Containers/Profile/Profile.js'
 import './App.css';
 import 'antd/dist/antd.css';
-import {CharityPage} from './CharityPage'
+import {CharityPage} from './CharityPage';
+import {AllCharityPage} from './AllCharityPage';
 
 const App = () => (
   <div className="App">
@@ -19,6 +20,7 @@ const App = () => (
     <Route path="/redcross" component={CharityPage} />
     <Route path="/asos" component={StorePage} />
     <Route path="/profile" component={Profile} />
+    <Route path="/charities" component={AllCharityPage} />
     </Router>
     
   </div>

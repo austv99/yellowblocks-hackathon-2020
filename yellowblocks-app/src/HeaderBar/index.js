@@ -24,7 +24,9 @@ export const HeaderBar = () => {
 
                 <Col span={6} className="gutter-box">
                     <Button type="link">All Shops</Button> | 
+                    <Link to="/charities">
                     <Button type="link">All Charities</Button> |
+                    </Link>
                     <Button type="link">How it Works?</Button>
                 </Col>
 
