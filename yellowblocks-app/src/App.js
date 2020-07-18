@@ -7,8 +7,13 @@ import {HeaderBar} from './HeaderBar';
 function App() {
   return (
     <div className="App">
-      <CharityPage />
-      <HeaderBar />
+      <div>
+        <HeaderBar />
+      </div>
+
+      <div>
+        <CharityPage />
+      </div>
     </div>
   );
 }
