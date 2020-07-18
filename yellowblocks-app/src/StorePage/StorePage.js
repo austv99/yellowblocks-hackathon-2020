@@ -1,11 +1,13 @@
 import React from 'react';
 import 'antd/dist/antd.css';
 import './../index.css';
-import { Layout, Card, Button, Progress } from 'antd';
+import { Layout, Card, Button, Progress, Popover } from 'antd';
+import { QuestionCircleOutlined } from '@ant-design/icons';
 
 const { Header, Content, Footer } = Layout;
 
 export default function StorePage () {
+    
     return(
     <Layout className="layout">
         <Header>
@@ -33,6 +35,9 @@ export default function StorePage () {
                 <div class='flex-container half-container'>
                     <p style={{fontSize:"12px", fontStyle:"bold", marginRight:"10px"}}><strong>Charity split:</strong></p>
                     <Progress class='third-container' style={{marginRight:"10px"}} percent={50} size="small" status="active" />
+                    <Popover content={<p>The percentage of cashback you will receive from a transaction that will be donated to charity.</p>} >
+                        <QuestionCircleOutlined style={{marginRight:"10px"}}/>
+                    </Popover>
                     <Button type="secondary">CHANGE</Button>
                 </div>
                 <h2>ASOS Terms and Conditions:</h2>
