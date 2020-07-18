@@ -6,6 +6,7 @@ import { Slider } from 'antd';
 import { Row, Col, Statistic } from 'antd';
 import { Table, Space } from 'antd';
 import { DollarCircleOutlined } from '@ant-design/icons';
+import HeaderBar from '../../HeaderBar';
 
 const marks = {
   0: '0%',
@@ -116,6 +117,7 @@ const colTransact = [
 export default function Profile () {
     return (
       <>
+      <HeaderBar />
     
       <Row gutter={50}>
         <Col style={{width: '55%'}}>
