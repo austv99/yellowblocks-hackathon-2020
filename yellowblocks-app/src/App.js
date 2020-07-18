@@ -3,6 +3,7 @@ import './App.css';
 
 import {CharityPage} from './CharityPage';
 import {HeaderBar} from './HeaderBar';
+import {AllCharityPage} from './AllCharityPage';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       </div>
 
       <div>
-        <CharityPage />
+        <AllCharityPage />
       </div>
     </div>
   );
