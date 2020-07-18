@@ -2,10 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'antd/dist/antd.css';
 import './Profile.css';
-import { Slider } from 'antd';
-import { Row, Col, Statistic } from 'antd';
-import { Table, Space } from 'antd';
-import { DollarCircleOutlined } from '@ant-design/icons';
+import { Row, Col, Statistic, Slider, Popover, Table  } from 'antd';
+import { DollarCircleOutlined, QuestionCircleOutlined } from '@ant-design/icons';
 import HeaderBar from '../../HeaderBar';
 
 const marks = {
@@ -125,7 +123,12 @@ export default function Profile () {
         </Col>
         <Col style={{width: '40%'}}>
           <div className="flex-center-container">
+          <div>
           <h3>Your Charity Split</h3>
+          <Popover content={<p>Charity split is the percentage of cashback received from a transaction that will be donated to charity.</p>} >
+            <QuestionCircleOutlined style={{marginRight:"10px"}}/>
+          </Popover>
+          </div>
           <Slider style={{width: '15rem'}} marks={marks} valueLabelDisplay="on"/>
           </div>
         </Col>
