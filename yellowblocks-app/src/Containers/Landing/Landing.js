@@ -6,6 +6,7 @@ import { Card } from 'antd';
 import './Landing.css';
 import Asos from '../../assets/asos.svg';
 import Nike from '../../assets/nike.svg';
+import {HeaderBar} from '../../HeaderBar';
 import HelloFresh from '../../assets/hellofresh.svg';
 import Jbhifi from '../../assets/jbhifi.svg';
 import Officeworks from '../../assets/officeworks.jpg';
@@ -16,7 +17,7 @@ export default function Landing () {
     return(
         <>
         <div className='body'>
-
+        <HeaderBar />
         <Carousel className="carousel" autoplay>
             <div>
             <h3>Charity 1</h3>
