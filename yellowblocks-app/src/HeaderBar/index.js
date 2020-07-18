@@ -1,6 +1,6 @@
 import * as React from 'react';
 import 'antd/dist/antd.css';
-import { Row, Col, Input, Button, Avatar } from 'antd';
+import { Row, Col, Input, Button, Avatar, Card } from 'antd';
 import { UserOutlined } from '@ant-design/icons';
 import './index.css';
 
@@ -26,6 +26,7 @@ export const HeaderBar = () => {
                 </Col>
 
                 <Col span={1} className="gutter-box" offset={3}> 
+                    {/* need to convert to button */}
                     <Avatar size="large" icon={<UserOutlined />} src="https://toppng.com/uploads/preview/image-bill-gates-transparent-bill-gates-11563566568tr4jlrx3oe.png" />
                 </Col>
             </Row>
