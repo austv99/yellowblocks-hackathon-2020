@@ -1,9 +1,11 @@
 import React from 'react';
 import './App.css';
+import 'antd/dist/antd.css';
 
 import {CharityPage} from './CharityPage';
 import {HeaderBar} from './HeaderBar';
 import {AllCharityPage} from './AllCharityPage';
+import {AllShopsPage} from './AllShopsPage';
 
 function App() {
   return (
@@ -13,7 +15,7 @@ function App() {
       </div>
 
       <div>
-        <AllCharityPage />
+        <AllShopsPage />
       </div>
     </div>
   );
