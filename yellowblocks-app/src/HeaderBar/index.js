@@ -30,7 +30,9 @@ export const HeaderBar = () => {
 
                 <Col span={1} className="gutter-box" offset={1}> 
                     {/* need to convert to button */}
+                    <Link to="/profile">
                     <Avatar size="large" icon={<UserOutlined />} src="https://toppng.com/uploads/preview/image-bill-gates-transparent-bill-gates-11563566568tr4jlrx3oe.png" />
+                    </Link>
                 </Col>
             </Row>
         </>
