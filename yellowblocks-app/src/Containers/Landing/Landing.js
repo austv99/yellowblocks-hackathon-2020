@@ -35,7 +35,7 @@ export default function Landing () {
         </div>
         <div className="business">
         <Link to="/asos">
-        <Card style={{ height: 500, width: 250, margin: '6px' }}>
+        <Card hoverable style={{ height: 500, width: 250, margin: '6px' }}>
             <div style={{height:'200px', width:'200px'}}>
             
             <img src={Asos} style={{height: '150px', width: '150px'}}/>
@@ -46,7 +46,7 @@ export default function Landing () {
             <h3>3% for you, 3% for charity</h3>
         </Card>
         </Link>
-        <Card style={{ height: 500, width: 250, margin: '6px' }}>
+        <Card hoverable style={{ height: 500, width: 250, margin: '6px' }}>
             <div style={{height:'200px', width:'200px'}}>
             <img src={Nike} style={{height: '150px', width: '150px'}}/>
             </div>
@@ -54,7 +54,7 @@ export default function Landing () {
             <h2>Cashback Rate 4%</h2>
             <h3>2% for you, 2% for charity</h3>
         </Card>
-        <Card style={{ height: 500, width: 250, margin: '6px' }}>
+        <Card hoverable style={{ height: 500, width: 250, margin: '6px' }}>
             <div style={{height:'200px', width:'200px'}}>
             <img src={HelloFresh} style={{height: '150px', width: '150px'}}/>
             </div>
@@ -63,7 +63,7 @@ export default function Landing () {
             <h3>2.5% for you, 2.5% for charity</h3>
             <h4 style={{color: '#ff0000'}}>Limited Offer!</h4>
         </Card>
-        <Card style={{ height: 500, width: 250, margin: '6px' }}>
+        <Card hoverable style={{ height: 500, width: 250, margin: '6px' }}>
         <div style={{height:'200px', width:'200px'}}>
             <img src={Jbhifi} style={{height: '150px', width: '150px'}}/>
         </div>
@@ -72,7 +72,7 @@ export default function Landing () {
             <h3>1.5% for you, 1.5% for charity</h3>
             {/* <h4 style={{color: '#ff0000'}}>Limited Offer!</h4> */}
         </Card>
-        <Card style={{ height: 500, width: 250, margin: '6px' }}>
+        <Card hoverable style={{ height: 500, width: 250, margin: '6px' }}>
         <div style={{height:'200px', width:'200px'}}>
         <img src={Officeworks} style={{height: '100px', width: '200px'}}/>
         </div>
@@ -80,7 +80,7 @@ export default function Landing () {
             <h2>Cashback Rate 4%</h2>
             <h3>2% for you, 2% for charity</h3>
         </Card>
-        <Card style={{ height: 400, width: 250, margin: '6px' }}>
+        <Card hoverable style={{ height: 400, width: 250, margin: '6px' }}>
         <div style={{height:'200px', width:'200px'}}>
         <img src={ChatThai} style={{height: '150px', width: '100px'}}/>
             <h1 style={{fontWeight:'700'}}>Chat Thai</h1>
@@ -88,7 +88,7 @@ export default function Landing () {
             <h3>2% for you, 2% for charity</h3>
         </div>
         </Card>
-        <Card style={{ height: 400, width: 250, margin: '6px' }}>
+        <Card hoverable style={{ height: 400, width: 250, margin: '6px' }}>
         <div style={{height:'200px', width:'200px'}}>
         <img src={Amazon} style={{height: '150px', width: '200px'}}/>
             <h1 style={{fontWeight:'700'}}>Amazon</h1>
@@ -96,7 +96,7 @@ export default function Landing () {
             <h3>2% for you, 2% for charity</h3>
         </div>
         </Card>
-        <Card style={{ height: 400, width: 250, margin: '6px' }}>
+        <Card hoverable style={{ height: 400, width: 250, margin: '6px' }}>
         <div style={{height:'200px', width:'200px'}}>
         <img src={ChatThai} style={{height: '150px', width: '100px'}}/>
             <h1 style={{fontWeight:'700'}}>Chat Thai</h1>
