@@ -21,11 +21,6 @@ data.push({
     description: 'The Salvation Army is a Christian church and an international charitable organisation.',
 })
 
-data.push({
-    title:'Vinnies',
-    image: 'https://lh3.googleusercontent.com/proxy/klMB4nCygXzFbF3C8MMpUVCvD3I5ADYde0gU0JURowdlVEYHh48e9xwsVkignW8QnnsoXIIfhTZRXus72cZ-yNksVZeZLzuFGV2hNtoZ2nd-3f3nqTF7oKThjXVknIHAsyvITNr8_jbpfOXlQCftEee0JGIojeesMr88jPtVreNlCtyzioq93Yac0vkpRZNWGHBi8IRYrgwSNvbZXhBSzA2rTZf8kabz',
-    description: 'The St Vincent de Paul Society assists people experiencing poverty and inequality and works to shape a more just and compassionate society.',
-})
 
 data.push({
     title:'APYEF',

@@ -29,7 +29,7 @@ export const HeaderBar = () => {
                     <Link to="/charities">
                     <Button type="link">All Charities</Button> |
                     </Link>
-                    <Button type="link">How it Works?</Button>
+                    <Button type="link">Suggest a Charity</Button>
                 </Col>
 
                 <Col span={1} className="gutter-box" offset={1}> 

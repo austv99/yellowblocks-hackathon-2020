@@ -15,9 +15,11 @@ import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 import MSFCarousel from '../../assets/msfcarousel.jpg';
 import Amazon from '../../assets/amazon.svg';
+import { Steps, Divider } from 'antd';
 import { Link } from 'react-router-dom';
 
 const { Search } = Input;
+const { Step } = Steps;
 
 export default function Landing () {
     return(
@@ -30,9 +32,20 @@ export default function Landing () {
         <img src={RedCross} style={{width: '1000px'}}/>
         </Link>
         </div>
-        <div className="partnered">
-        <h1>Partnered Businesses</h1>
+        <h1>How does it work?</h1>
+
+        <div className ="steps-padding">
+        <Steps current={0}>
+          <Step title="Click your desired store" description="Visit one of our participating retailers online stores" />
+          <Step title="Shop and get cashback" description="Finish a purchase at one of our partnering shops" />
+          <Step title="That's it!" description="Proceeds are automatically donated to your desired charity and money is deposited into your account" />
+        </Steps>
         </div>
+        <Divider />
+
+        {/* <div className="partnered"> */}
+        <h1>Partnered Businesses</h1>
+        {/* </div> */}
         <div className="business">
         <Link to="/asos">
         <Card hoverable style={{ height: 500, width: 250, margin: '6px' }}>
@@ -96,14 +109,7 @@ export default function Landing () {
             <h3>2% for you, 2% for charity</h3>
         </div>
         </Card>
-        <Card hoverable style={{ height: 400, width: 250, margin: '6px' }}>
-        <div style={{height:'200px', width:'200px'}}>
-        <img src={ChatThai} style={{height: '150px', width: '100px'}}/>
-            <h1 style={{fontWeight:'700'}}>Chat Thai</h1>
-            <h2>Cashback Rate 4%</h2>
-            <h3>2% for you, 2% for charity</h3>
-        </div>
-        </Card>
+
 
         </div>
         </div>

@@ -126,7 +126,7 @@ export default function Profile () {
         <Col style={{width: '40%'}}>
           <div className="flex-center-container">
           <h3>Your Charity Split</h3>
-          <Slider style={{width: '15rem'}} marks={marks} valueLabelDisplay="on"/>
+          <Slider style={{width: '15rem'}} marks={marks} valueLabelDisplay="on" defaultValue="20"/>
           </div>
         </Col>
       </Row>
