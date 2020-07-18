@@ -3,6 +3,7 @@ import 'antd/dist/antd.css';
 import './StorePage.css';
 import { Layout, Card, Button, Progress, Popover } from 'antd';
 import { QuestionCircleOutlined } from '@ant-design/icons';
+import HeaderBar from "../../HeaderBar";
 
 const { Header, Content, Footer } = Layout;
 
@@ -10,9 +11,7 @@ export default function StorePage () {
     
     return(
     <Layout className="layout">
-        <Header>
-        <div className="logo" />
-        </Header>
+        <HeaderBar />
         <Content style={{ padding: '20px 50px' }}>
         <h1>ASOS Cashback</h1>
         <div style={{marginTop:'30px'}}>
