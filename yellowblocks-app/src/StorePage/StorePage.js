@@ -27,7 +27,7 @@ export default function StorePage () {
                     </div>
                 </Card>
                 <br/>
-                <p>Estimated Approval: 30-75 days</p>
+                <p><strong>Estimated Approval:</strong> 30-75 days</p>
                 </div>
                 <div>
                 <div class='flex-container half-container'>
